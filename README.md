@@ -43,3 +43,12 @@ CREATE TABLE IncidentLogs(
     FOREIGN KEY (areaID) REFERENCES VulnerableAreas(areaID),
     FOREIGN KEY (hazardID) REFERENCES HazardType(hazardID)
 );
+
+CREATE TABLE CommunityPreparedness(
+preparednessID INT PRIMARY KEY,
+areaID INT,
+assessmentDate TIMESTAMP,
+lastDrill TIMESTAMP,
+nextDrill TIMESTAMP,
+FOREIGN KEY (areaID) REFERENCES VulnerableAreas (areaID)
+);
