@@ -70,3 +70,12 @@ VALUES
 (13, 'Emergency Management', 'Linda', 'Coordinator', '0721567893', 'linda management@gmail.com'),
 (14, 'Search and Rescue', 'John', 'Coordinator', '0794345678', 'j.rescues@gmail.com'),
 (15, 'City Health Department', 'Nina', 'Nurse', '0734556677', 'nina33076@gmail.com');
+INSERT INTO TrainingPrograms (programid, programname, description, targetaudience, durationhours, capacitysession, certificationrequired, validityperiod)
+VALUES 
+    (1, 'Fire Safety', 'Basic fire response', 'Community', 3, 20, TRUE, 24),
+    (2, 'Flood Preparedness', 'Flood risk management', 'Emergency Staff', 5, 25, FALSE, 12),
+    (3, 'CPR and First Aid', 'Cardiopulmonary resuscitation and basic first aid', 'General Public', 4, 30, TRUE, 36),
+    (4, 'Earthquake Readiness', 'Preparedness for seismic events', 'School Staff', 6, 15, TRUE, 24),
+    (5, 'Evacuation Training', 'Safe evacuation procedures', 'Office Workers', 2, 40, FALSE, 12),
+    (6, 'Search and Rescue', 'Introduction to search and rescue techniques', 'Rescue Teams', 8, 20, TRUE, 24),
+    (7, 'Hazardous Materials Handling', 'Safety around hazardous materials', 'Industrial Workers', 7, 25, TRUE, 12),
