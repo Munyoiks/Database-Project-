@@ -62,16 +62,11 @@ VALUES
 (5, 'Ambulance', 'Harvey', 'Nurse', '0722513140', 'harevey3306@gmail.com'),
 (6, 'Rescue Services', 'Lara', 'Rescuer', '0792334456', 'lara.rescue@gmail.com'),
 (7, 'Red Cross', 'Emily', 'Coordinator', '0741256890', 'emily.rcross@gmail.com'),
-INSERT INTO VulnerableAreas(areaID,areaName,populationArea,lastchecked DATE)
-VALUES(25,'Nairobi',16,'13/08/2024'),
-      (36,'Mumbai',12,'25/09/2024'),
-	  (32,'Johannesburg',15,'28/09/2024'),
-	  (42,'Brasilia',21,'14/10/2024'),
-	  (46,'Santiago',24,'20/10/2024');
-
-INSERT INTO HazardAreas(hazardID,hazardName,description,seasonalPattern)	  
-VALUES(1,'bushfire','biologicalHazard','summer'),
-      (2,'desertification','climateHazard','summer'),
-	  (3,'earhquake','geologicalHazard','spring'),
-	  (4,'landslide','geologicalHazard','winter'),
-	  (5,'tsunami','geologicalHazard','anySeason');
+(8, 'Mountain Rescue', 'Peter', 'Team Leader', '0782347654', 'p.rescues@gmail.com'),
+(9, 'Coast Guard', 'Tom', 'Commander', '0723657890', 'tom@coastguard.com'),
+(10, 'Animal Control', 'Diana', 'Specialist', '0774567892', 'diana.ac@gmail.com'),
+(11, 'Fire station', 'Karen', 'Deputy Chief', '0734445566', 'karenchief@gmail.com'),
+(12, 'Forest Service', 'Mike', 'Ranger', '0755678901', 'm.ranger@gmail.com'),
+(13, 'Emergency Management', 'Linda', 'Coordinator', '0721567893', 'linda management@gmail.com'),
+(14, 'Search and Rescue', 'John', 'Coordinator', '0794345678', 'j.rescues@gmail.com'),
+(15, 'City Health Department', 'Nina', 'Nurse', '0734556677', 'nina33076@gmail.com');
