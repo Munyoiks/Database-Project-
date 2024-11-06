@@ -60,6 +60,6 @@ VALUES
 (3, 'Police', 'Stan', 'Inspector', '0762833458', 'inspstan@gmail.com'),
 (4, 'Hospital', 'Ian', 'Doctor', '0794235090', 'docian33@gmail.com'),
 (5, 'Ambulance', 'Harvey', 'Nurse', '0722513140', 'harevey3306@gmail.com'),
-(6, 'Rescue Services', 'Lara', 'Rescuer', '0792334456', 'lara.rescue@services.com'),
-(7, 'Red Cross', 'Emily', 'Coordinator', '0741256890', 'emily.rcross@redcross.org'),
+(6, 'Rescue Services', 'Lara', 'Rescuer', '0792334456', 'lara.rescue@gmail.com'),
+(7, 'Red Cross', 'Emily', 'Coordinator', '0741256890', 'emily.rcross@gmail.com'),
 
