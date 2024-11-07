@@ -81,3 +81,11 @@ VALUES
     (5, 'Evacuation Training', 'Safe evacuation procedures', 'Office Workers', 2, 40, FALSE, 12),
     (6, 'Search and Rescue', 'Introduction to search and rescue techniques', 'Rescue Teams', 8, 20, TRUE, 24),
     (7, 'Hazardous Materials Handling', 'Safety around hazardous materials', 'Industrial Workers', 7, 25, TRUE, 12),
+    (8, 'Cybersecurity Basics', 'Protection against cyber threats', 'IT Staff', 3, 30, FALSE, 18),
+    (9, 'Water Safety', 'Preventing and responding to water accidents', 'Lifeguards', 4, 20, TRUE, 36),
+    (10, 'Child Safety', 'Safety protocols for working with children', 'Teachers', 3, 40, FALSE, 24),
+    (11, 'High-Rise Evacuation', 'Evacuation training for high-rise buildings', 'Corporate Employees', 2, 50, FALSE, 12),
+    (12, 'Disaster Communication', 'Effective communication during disasters', 'Emergency Responders', 5, 20, TRUE, 24),
+    (13, 'Basic First Responder', 'Introductory training for first responders', 'Volunteers', 6, 25, TRUE, 18),
+    (14, 'Wildfire Management', 'Techniques for wildfire management', 'Forest Rangers', 6, 15, TRUE, 24),
+    (15, 'Mental Health Support', 'Providing mental health support in crises', 'Counselors', 4, 30, FALSE, 24);
