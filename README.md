@@ -70,6 +70,8 @@ VALUES
 (13, 'Emergency Management', 'Linda', 'Coordinator', '0721567893', 'linda management@gmail.com'),
 (14, 'Search and Rescue', 'John', 'Coordinator', '0794345678', 'j.rescues@gmail.com'),
 (15, 'City Health Department', 'Nina', 'Nurse', '0734556677', 'nina33076@gmail.com');
+
+
 INSERT INTO TrainingPrograms (programid, programname, description, targetaudience, durationhours, capacitysession, certificationrequired, validityperiod)
 VALUES 
     (1, 'Fire Safety', 'Basic fire response', 'Community', 3, 20, TRUE, 24),
