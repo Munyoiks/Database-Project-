@@ -89,3 +89,26 @@ VALUES
     (13, 'Basic First Responder', 'Introductory training for first responders', 'Volunteers', 6, 25, TRUE, 18),
     (14, 'Wildfire Management', 'Techniques for wildfire management', 'Forest Rangers', 6, 15, TRUE, 24),
     (15, 'Mental Health Support', 'Providing mental health support in crises', 'Counselors', 4, 30, FALSE, 24);
+
+    INSERT INTO HazardType(hazardID, hazardName, description, seasonalPattern)  
+VALUES 
+    (1, 'bushfire', 'biological', 'summer'),
+    (2, 'desertification', 'climate', 'summer'),
+    (3, 'earthquake', 'geological', 'spring'),
+    (4, 'landslide', 'geological', 'winter'),
+    (5, 'tsunami', 'geological', 'any Season'),
+    (6, 'flood', 'hydrological', 'spring'),
+    (7, 'cyclone', 'meteorological', 'summer'),
+    (8, 'drought', 'climate', 'any Season'),
+    (9, 'volcanic eruption', 'geological', 'any Season'),
+    (10, 'avalanche', 'geological', 'winter'),
+    (11, 'heatwave', 'climate', 'summer'),
+    (12, 'cold wave', 'climate', 'winter'),
+    (13, 'tornado', 'meteorological', 'spring'),
+    (14, 'hailstorm', 'meteorological', 'spring'),
+    (15, 'coastal erosion', 'geological', 'any Season'),
+    (16, 'wildfire', 'biological', 'summer'),
+    (17, 'sinkhole', 'geological', 'any Season'),
+    (18, 'blizzard', 'meteorological', 'winter'),
+    (19, 'sandstorm', 'meteorological', 'summer'),
+    (20, 'ice storm', 'meteorological', 'winter');
