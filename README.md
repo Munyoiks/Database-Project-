@@ -90,7 +90,8 @@ VALUES
     (14, 'Wildfire Management', 'Techniques for wildfire management', 'Forest Rangers', 6, 15, TRUE, 24),
     (15, 'Mental Health Support', 'Providing mental health support in crises', 'Counselors', 4, 30, FALSE, 24);
 
-    INSERT INTO HazardType(hazardID, hazardName, description, seasonalPattern)  
+    
+INSERT INTO HazardType(hazardID, hazardName, description, seasonalPattern)  
 VALUES 
     (1, 'bushfire', 'biological', 'summer'),
     (2, 'desertification', 'climate', 'summer'),
