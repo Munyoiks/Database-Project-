@@ -123,4 +123,10 @@ VALUES
 (106, 6, '2024-07-15 22:00:00', 20, 0, 'Police Units, Traffic Control', 'Enhance public communication channels'),
 (107, 1, '2024-08-11 19:25:00', 35, 5, 'Evacuation Buses, Firefighters', 'Faster evacuation plans required'),
 (108, 2, '2024-09-07 07:15:00', 25, 2, 'Drones, Search Dogs', 'Improved coordination among teams'),
-
+(109, 7, '2024-10-21 14:00:00', 40, 10, 'Relief Supplies, Medical Camps', 'Better disaster preparedness'),
+(110, 8, '2024-11-02 03:35:00', 55, 8, 'Engineering Team, Support Vehicles', 'Reinforce infrastructure'),
+(101, 3, '2024-12-19 13:10:00', 50, 0, 'Pumps, Flood Barriers', 'Upgrade drainage systems'),
+(102, 9, '2025-01-30 06:40:00', 65, 4, 'Helicopters, Search and Rescue Teams', 'Review evacuation protocols'),
+(103, 10, '2025-02-25 17:55:00', 5, 0, 'Bomb Squad, K9 Units', 'Improved surveillance measures'),
+(104, 11, '2025-03-12 20:20:00', 75, 6, 'Tents, Water Purification Units', 'Increase stockpile of emergency goods'),
+(105, 12, '2025-04-08 12:30:00', 12, 0, 'Fire Drones, Surveillance Cameras', 'Early detection system upgrade');
