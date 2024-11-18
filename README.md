@@ -113,3 +113,14 @@ VALUES
     (18, 'blizzard', 'meteorological', 'winter'),
     (19, 'sandstorm', 'meteorological', 'summer'),
     (20, 'ice storm', 'meteorological', 'winter');
+
+  INSERT INTO IncidentLogs (areaID, hazardID, incidentDate, responseTime, casualties, resourceDeployed, lessonsLearned) VALUES  
+(101, 1, '2024-02-15 14:30:00', 15, 0, 'Fire Trucks, Water Tankers', 'Improve fire alarm system'),
+(102, 2, '2024-03-20 08:45:00', 30, 3, 'Ambulances, Medical Team', 'Need for better road access'),
+(103, 3, '2024-04-12 11:20:00', 45, 12, 'Helicopters, Rescue Boats', 'Enhance flood warning system'),
+(104, 4, '2024-05-03 16:10:00', 10, 0, 'Hazmat Team, Protective Gear', 'Increase chemical storage training'),
+(105, 5, '2024-06-28 09:50:00', 60, 1, 'Fire Brigade, Paramedics', 'Regular equipment maintenance needed'),
+(106, 6, '2024-07-15 22:00:00', 20, 0, 'Police Units, Traffic Control', 'Enhance public communication channels'),
+(107, 1, '2024-08-11 19:25:00', 35, 5, 'Evacuation Buses, Firefighters', 'Faster evacuation plans required'),
+(108, 2, '2024-09-07 07:15:00', 25, 2, 'Drones, Search Dogs', 'Improved coordination among teams'),
+
