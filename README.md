@@ -130,3 +130,11 @@ VALUES
 (103, 10, '2025-02-25 17:55:00', 5, 0, 'Bomb Squad, K9 Units', 'Improved surveillance measures'),
 (104, 11, '2025-03-12 20:20:00', 75, 6, 'Tents, Water Purification Units', 'Increase stockpile of emergency goods'),
 (105, 12, '2025-04-08 12:30:00', 12, 0, 'Fire Drones, Surveillance Cameras', 'Early detection system upgrade');
+
+INSERT INTO CommunityPreparedness (preparednessID, areaID, assessmentDate, lastDrill, nextDrill)
+VALUES
+(1, 101, '2024-10-01 14:00:00', '2024-09-15 10:00:00', '2024-12-15 10:00:00'),
+(2, 102, '2024-10-05 09:30:00', '2024-08-25 16:00:00', '2024-11-20 14:00:00'),
+(3, 103, '2024-11-01 13:45:00', '2024-10-10 11:00:00', '2024-12-05 15:30:00'),
+(4, 104, '2024-10-20 08:00:00', '2024-09-01 14:00:00', '2025-01-10 09:00:00'),
+(5, 105, '2024-11-15 15:15:00', '2024-10-05 13:00:00', '2025-02-20 14:00:00'),
