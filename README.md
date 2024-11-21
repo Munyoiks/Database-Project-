@@ -155,4 +155,4 @@ VALUES
 (106, 'Suburban Region F', 35000, '2024-11-01'),
 (107, 'River Valley G', 22000, '2024-10-18'),
 (108, 'Industrial Zone H', 45000, '2024-08-30'),
-(109, 'Historic District I', 3000, '2024-09-05);
+(109, 'Historic District I', 3000, '2024-09-05');
