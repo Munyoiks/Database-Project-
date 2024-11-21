@@ -156,3 +156,9 @@ VALUES
 (107, 'River Valley G', 22000, '2024-10-18'),
 (108, 'Industrial Zone H', 45000, '2024-08-30'),
 (109, 'Historic District I', 3000, '2024-09-05');
+
+
+SELECT 
+VulnerableAreas.areaID, VulnerableAreas.areaName,  VulnerableAreas.populationArea, VulnerableAreas.lastChecked
+FROM  CommunityPreparedness
+RIGHT JOIN VulnerableAreas ON  CommunityPreparedness.areaID = VulnerableAreas.areaID;
