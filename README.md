@@ -162,3 +162,9 @@ SELECT
 VulnerableAreas.areaID, VulnerableAreas.areaName,  VulnerableAreas.populationArea, VulnerableAreas.lastChecked
 FROM  CommunityPreparedness
 RIGHT JOIN VulnerableAreas ON  CommunityPreparedness.areaID = VulnerableAreas.areaID;
+
+
+SELECT 
+VulnerableAreas.areaID, VulnerableAreas.areaName,  VulnerableAreas.populationArea, VulnerableAreas.lastChecked
+FROM  CommunityPreparedness
+FULL JOIN VulnerableAreas ON  CommunityPreparedness.areaID = VulnerableAreas.areaID;
