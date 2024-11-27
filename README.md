@@ -204,3 +204,28 @@ WHERE
     validityPeriod < 12
 OR 
     certificationRequired = FALSE;
+SELECT 
+    programName,
+    description,
+    targetAudience,
+    durationHours,
+    capacitySession
+FROM 
+    TrainingPrograms
+WHERE 
+    capacitySession > 5;
+    SELECT 
+    VulnerableAreas.areaID,
+    VulnerableAreas.areaName
+FROM 
+    VulnerableAreas
+LEFT JOIN 
+    CommunityPreparedness ON VulnerableAreas.areaID = CommunityPreparedness.areaID
+WHERE 
+    CommunityPreparedness.areaID IS NULL;
+    SELECT 
+    hazardName,
+    description,
+    seasonalPattern
+FROM 
+    HazardType;
