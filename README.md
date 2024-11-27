@@ -229,3 +229,11 @@ WHERE
     seasonalPattern
 FROM 
     HazardType;
+
+ SELECT * FROM VulnerableAreas;
+
+SELECT * FROM EmergencyContacts;
+
+SELECT * FROM HazardType;
+
+SELECT * FROM TrainingPrograms;
