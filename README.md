@@ -190,4 +190,13 @@ CROSS JOIN
     EmergencyContacts
 ORDER BY 
     VulnerableAreas.areaName;
-
+SELECT 
+    programName,
+    validityPeriod,
+    certificationRequired
+FROM 
+    TrainingPrograms
+WHERE 
+    validityPeriod < 12
+OR 
+    certificationRequired = FALSE;
